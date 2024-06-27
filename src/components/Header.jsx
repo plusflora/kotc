@@ -1,13 +1,21 @@
-import "../App.css";
+import { useState } from "react";
+import "../App.css"; // Import your CSS file for styling
+import kotcLogo from "../assets/King-of-the-Cove-2024-LOGO-SHARK-TEETH-BLACK-Transparent-5x5inches.png";
+import KotcNavbar from "./Navbar.jsx";
 
 function Header() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <header>
+    <header className="navbar-container">
       <img
-        className="kotcteeth"
-        src={require("../assets/King-of-the-Cove-2024-LOGO-SHARK-TEETH-BLACK-Transparent-5x5inches.png")}
+        className={`kotcteeth ${isHovered ? "kotc-hovered" : ""}`}
+        src={kotcLogo}
         alt="kotc-logo"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       />
+      <KotcNavbar />
     </header>
   );
 }

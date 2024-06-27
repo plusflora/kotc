@@ -7,7 +7,7 @@
 - About Page
 - Media
 - Past Results
-- Sponsors/Thanks & Shout outs
+- Sponsors/Thank yous & Shout outs
 - The Team/Who's putting it on/Who's working on the event
 
 ### Ideas/Spitballing
@@ -18,3 +18,4 @@
 ### Random Notes
 - trying the react version instead.
 - wondering if this will give better interactivity or if I should go back to the classic html version.
+- Do I want to combine the About and the "Team" pages?
