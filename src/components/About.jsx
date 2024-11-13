@@ -1,8 +1,10 @@
 import "../App.css";
+import kotcHead from "../assets/King-of-the-Cove-2024-STYLE-KING-BLACK-BG-6-x-6-inch 3.jpg";
 
 function AboutPage() {
   return (
-    <div className="about-text-container">
+    <div className="about-container">
+      <h2 className="about-title">About</h2>
       <p className="about-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget
         lacus sit amet mauris interdum tempus. Vestibulum vehicula non lorem non
@@ -14,8 +16,9 @@ function AboutPage() {
         accumsan. Orci varius natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec odio augue, interdum quis sollicitudin
         nec, venenatis sed sapien. Morbi dolor justo, aliquet eget sem nec,
-        lacinia mollis nisi.
+        lacinia mollis.
       </p>
+      <img src={kotcHead} alt="kotc head" />
     </div>
   );
 }

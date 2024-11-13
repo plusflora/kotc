@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../App.css"; // Import your CSS file for styling
+import "../App.css";
 import kotcLogo from "../assets/King-of-the-Cove-2024-LOGO-SHARK-TEETH-BLACK-Transparent-5x5inches.png";
 import KotcNavbar from "./Navbar.jsx";
 

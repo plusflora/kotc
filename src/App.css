@@ -2,6 +2,7 @@
     background-color: black;
 }
 
+// Navbar Section
 .navbar-container {
     display: flex;
     justify-content: center;
@@ -48,6 +49,7 @@
     background-color: #555;
 }
 
+// Landing Page / what you see when the page loads
 .landing-video {
     display: flex;
     flex-direction: column;
@@ -58,12 +60,23 @@
     padding-top: 0px;
 }
 
-.about-text-container {
+// About Section
+.about-container {
 }
-
+.about-title {
+    color: #fff;
+}
 .about-text {
     color: #fff;
 }
+
+// Past Results section
+
+// Media section
+
+// Sponsors and Thank you's
+
+// The team and who's working on the event
 
 /* Media Query for Phones */
 @media (max-width: 768px) {
