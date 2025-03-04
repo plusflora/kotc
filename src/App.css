@@ -1,12 +1,12 @@
 * {
     background-color: black;
 }
-// Background Image
+html,
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url("/Users/vincentbouquet/code/sei/Personal-Projects/kotc-react/src/assets/King-of-the-Cove-2024-STYLE-KING-BLACK-BG-6-x-6-inch 3.jpg");
-    background-size: cover;
+    margin: 1.5%;
+    padding: 1.5%;
 }
 
 // Navbar Section
@@ -58,28 +58,28 @@ body {
 
 // Landing Page / what you see when the page loads
 .landing-video {
-    position: relative;
-    left: 50%;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 100vh;  */
-    /* width: 100vw;
-    /* margin: 0; */
-    /* padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
 }
 
 .landing-video iframe {
-    display: block; /* Ensures no extra inline spacing */
-    max-width: 100%; /* Ensures responsiveness */
-    max-height: 100%;
-    /* justify-content: center; */
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    /* max-height: 551px; */
 }
 
 // About Section
 .about-container {
     position: relative;
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -99,6 +99,8 @@ body {
     max-width: 75%;
     margin: 0 auto;
 }
+
+/
 
 // Past Results section
 
