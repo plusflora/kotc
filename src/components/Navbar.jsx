@@ -8,10 +8,12 @@ function KotcNavbar() {
         <li>Past Results</li>
         <li>Media</li>
         <li>Sponsors</li>
-        <li>The Team</li>
       </ul>
     </div>
   );
 }
 
 export default KotcNavbar;
+
+// Future bits
+// Add a team or staff page
